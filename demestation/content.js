@@ -44,13 +44,16 @@ btn.addEventListener('click', ()=>{
 const modalContent = document.createElement('div');
 modalContent.className = 'modal-content';
 modalContent.style.position = 'absolute'
-modalContent.style.top = '20%'
-modalContent.style.maxWidth = '30%';
-modalContent.style.left = '35%'
+modalContent.style.top = '45%'
+
+
+
 // Create the modal-header div
 const modalHeader = document.createElement('div');
 modalHeader.className = 'modal-header';
-
+modalContent.style.maxWidth = '500px'
+modalContent.style.left = '50%'
+modalContent.style.transform = 'translateX(-50%)'
 // Create the modal-title div
 const modalTitle = document.createElement('div');
 modalTitle.className = 'modal-title w-100 text-center';
